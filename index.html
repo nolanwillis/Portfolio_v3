@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <script defer src="script.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-zinc-950 font-sans leading-relaxed">
@@ -23,37 +24,8 @@
     <section>
       <h2 class="text-3xl font-normal text-slate-50 mb-8">Projects</h2>
       <!-- Projects Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Blockopoly -->
-        <div class="bg-gray-900 shadow-lg rounded p-2 flex flex-col">
-          <video controls class="w-full h-64 object-cover rounded">
-            <source src="demo1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <h3 class="text-xl font-semibold text-slate-50 mt-4 mx-2">Blockopoly</h3>
-          <p class="text-gray-50 m-2">
-            This project demonstrates my work on a responsive web app using modern web technologies. It features dynamic content and a user-friendly interface.
-          </p>
-          <p class="text-gray-50 m-2">
-            Additionally, this project includes advanced features like real-time updates and API integration, which showcase my ability to work with modern frameworks and libraries.
-          </p>
-        </div>
-        <!-- Animation System -->
-        <div class="bg-gray-900 shadow-lg rounded p-2 flex flex-col">
-          <video controls class="w-full h-64 object-cover rounded">
-            <source src="demo2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <h3 class="text-xl font-semibold text-gray-50 mt-4 mx-2">Animation System</h3>
-          <p class="text-gray-50 m-2">
-            This is a machine learning project where I developed a recommendation system. The system improves user engagement through personalized content by analyzing user behavior and patterns.
-          </p>
-          <p class="text-gray-50 m-2">
-            The model is trained on large datasets and employs collaborative filtering, making it scalable and adaptable to various industries.
-          </p>
-        </div>
-        <!-- Thread Pooling / Jetsons -->
-        <div class="bg-gray-900 shadow-lg rounded p-2 flex flex-col">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects"> 
+        <!-- <div class="bg-gray-900 shadow-lg rounded p-2 flex flex-col">
           <video controls class="w-full h-64 object-cover rounded">
             <source src="demo3.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -65,20 +37,7 @@
           <p class="text-gray-50 m-2">
             The animations are built with pure CSS, ensuring high performance and compatibility. The project also highlights my attention to detail and focus on user experience.
           </p>
-        </div>
-        <div class="bg-gray-900 shadow-lg rounded p-2 flex flex-col">
-          <video controls class="w-full h-64 object-cover rounded">
-            <source src="demo3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <h3 class="text-xl font-semibold text-gray-50 mt-4 mx-2">Project 3</h3>
-          <p class="text-gray-50 m-2">
-            A portfolio project showcasing my design and animation skills using CSS and JavaScript. It's a vibrant, interactive experience that engages users visually and intuitively.
-          </p>
-          <p class="text-gray-50 m-2">
-            The animations are built with pure CSS, ensuring high performance and compatibility. The project also highlights my attention to detail and focus on user experience.
-          </p>
-        </div>
+        </div> -->
       </div>
     </section>
   </main>
