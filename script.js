@@ -1,4 +1,5 @@
-// Path to your text file
+// Reads ProjectInfo.txt and generates a project card for each listed project
+// which consists of a tile, description, and mp4 file path.
 const filePath = './Content/ProjectInfo.txt';
 
 fetch(filePath)
