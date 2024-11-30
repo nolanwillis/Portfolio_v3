@@ -21,10 +21,10 @@ fetch(filePath)
         projectCard.className = 'bg-gray-900 shadow-lg rounded p-2 flex flex-col';
 
         const projectContent = `
-          <video controls class="w-full h-64 object-cover rounded">
-            <source src="${videoSrc}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <div class="w-full h-64 relative">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoSrc}" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
           <h3 class="text-xl font-semibold text-slate-50 mt-4 mx-2">${title}</h3>
           <p class="text-gray-50 m-2">${description}</p>
         `;
